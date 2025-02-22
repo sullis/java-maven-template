@@ -4,10 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "04:02"
+      time: "04:09"
     open-pull-requests-limit: 20
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-      time: "04:18"
+      time: "04:38"
