@@ -58,7 +58,6 @@
     <maven-surefire-plugin.version>3.5.5</maven-surefire-plugin.version>
     <versions-maven-plugin.version>2.21.0</versions-maven-plugin.version>
 
-    <skipTests>false</skipTests>
   </properties>
 
   <dependencyManagement>
@@ -151,12 +150,6 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>${logback.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>ch.qos.logback</groupId>
-      <artifactId>logback-core</artifactId>
       <version>${logback.version}</version>
       <scope>test</scope>
     </dependency>
